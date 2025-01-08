@@ -254,6 +254,22 @@ html {
         font-size: 1rem;
     }
 }
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Additional styling for dark mode */
+.dark-mode button {
+  background-color: #333;
+  color: white;
+}
+
 
     
   
