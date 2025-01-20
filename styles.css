@@ -75,41 +75,49 @@ body {
 .skills-list {
     list-style-type: none; /* Removes bullets */
     padding: 0; /* Removes padding */
-    color: rgb(255, 0, 0);
+    margin: 0 auto; /* Center the list horizontally */
+    max-width: 600px; /* Restrict the width */
+    color: rgb(255, 0, 0); /* Optional: adjust to suit your theme */
 }
 
 .skills-list li {
-    margin: 5px 0; /* Adds spacing between items */
-}
-/* Skills Section - Progress Bars */
-.skills-list li {
-  margin: 10px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    margin: 10px 0; /* Adds spacing between items */
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center content vertically */
+    gap: 10px; /* Space between icon and text */
 }
 
+/* Styling for icons */
+.skills-list li i {
+    font-size: 1.5rem; /* Adjust the size of icons */
+    color: #007BFF; /* Match the theme */
+    flex-shrink: 0; /* Prevent icons from resizing */
+}
+
+/* Progress Bars */
 progress {
-  width: 70%;
-  height: 10px;
-  border-radius: 5px;
-  appearance: none;
+    flex-grow: 1; /* Make the progress bar take remaining space */
+    width: auto; /* Allow it to adjust within the container */
+    height: 10px;
+    border-radius: 5px;
+    appearance: none;
 }
 
 progress::-webkit-progress-bar {
-  background-color: #f3f3f3;
-  border-radius: 5px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
 }
 
 progress::-webkit-progress-value {
-  background-color: #007BFF;
-  border-radius: 5px;
+    background-color: #007BFF;
+    border-radius: 5px;
 }
 
 progress::-moz-progress-bar {
-  background-color: #007BFF;
-  border-radius: 5px;
+    background-color: #007BFF;
+    border-radius: 5px;
 }
+
 
 
 /* Project Gallery Section */
