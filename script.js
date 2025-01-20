@@ -12,4 +12,9 @@ document.querySelectorAll('.read-more').forEach(link => {
     }
   });
 });
+document.getElementById("phone-link").addEventListener("click", function (e) {
+  e.preventDefault();
+  alert("LOL");
+});
+
 
