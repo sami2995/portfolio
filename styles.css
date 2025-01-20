@@ -325,7 +325,7 @@ footer h2 {
 }
 
 .social-links #phone-link::after {
-  content: "lol";
+  content: "LOL";
   position: absolute;
   bottom: -20px;
   left: 50%;
