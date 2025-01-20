@@ -311,34 +311,34 @@ footer h2 {
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
-/* Phone Icon Styling */
+
 .social-links #phone-link {
-  font-size: 40px;
-  color: #333;
-  text-decoration: none;
-  position: relative;
+    font-size: 40px;
+    color: #333;
+    text-decoration: none;
+    position: relative;
 }
 
 .social-links #phone-link:hover {
-  color: #007BFF;
-  transition: color 0.3s ease;
+    color: #007BFF;
+    transition: color 0.3s ease;
 }
 
 .social-links #phone-link::after {
-  content: "LOL";
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #333;
-  font-size: 14px;
-  font-weight: bold;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+    content: "LOL";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .social-links #phone-link:hover::after {
-  opacity: 1;
+    opacity: 1;
 }
 
 
