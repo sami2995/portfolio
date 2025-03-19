@@ -35,9 +35,9 @@ body {
     text-align: center;
     padding: 5rem 1rem;
     display: flex;
-    flex-direction: column; /* Stacks content vertically */
+    flex-direction: column; 
     align-items: center;
-    gap: 2rem; /* Space between image and text */
+    gap: 2rem;
 }
 
 .hero-content {
@@ -73,31 +73,31 @@ body {
 
 /* Skills Section */
 .skills-list {
-    list-style-type: none; /* Removes bullets */
-    padding: 0; /* Removes padding */
-    margin: 0 auto; /* Center the list horizontally */
-    max-width: 600px; /* Restrict the width */
-    color: rgb(255, 0, 0); /* Optional: adjust to suit your theme */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    color: rgb(255, 0, 0); 
 }
 
 .skills-list li {
-    margin: 10px 0; /* Adds spacing between items */
-    display: flex; /* Align items in a row */
+    margin: 10px 0; 
+    display: flex; 
     align-items: center; /* Center content vertically */
     gap: 10px; /* Space between icon and text */
 }
 
 /* Styling for icons */
 .skills-list li i {
-    font-size: 1.5rem; /* Adjust the size of icons */
-    color: #007BFF; /* Match the theme */
-    flex-shrink: 0; /* Prevent icons from resizing */
+    font-size: 1.5rem;
+    color: #007BFF;
+    flex-shrink: 0; 
 }
 
 /* Progress Bars */
 progress {
-    flex-grow: 1; /* Make the progress bar take remaining space */
-    width: auto; /* Allow it to adjust within the container */
+    flex-grow: 1; 
+    width: auto; 
     height: 10px;
     border-radius: 5px;
     appearance: none;
